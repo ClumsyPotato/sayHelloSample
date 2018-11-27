@@ -14,7 +14,7 @@ cd resource-tutorial
 
 #git commit -m "updated"
 
-I
+
 
 
 ls target/
