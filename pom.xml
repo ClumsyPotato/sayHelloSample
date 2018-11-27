@@ -43,7 +43,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<outputDirectory>${env.PWD}/target/</outputDirectory>
+					<outputDirectory>target/</outputDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
