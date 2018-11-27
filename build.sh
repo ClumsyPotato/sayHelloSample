@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "start build!"
+echo "start build!!!!!!"
 
 set -e
 
