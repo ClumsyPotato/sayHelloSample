@@ -5,4 +5,4 @@ echo "start build!"
 set -e
 
 cd resource-tutorial
-mvn -Dmaven.test.skip=true package
+./mvnw -Dmaven.test.skip=true package
