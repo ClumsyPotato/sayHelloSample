@@ -13,9 +13,9 @@ git clone resource-tutorial updated-repo
 ls -a resource-tutorial
 ls -a updated-repo
 rm -r ./updated-repo/target
-ls -a
+ls -a updated-repo
 cp -r ./target/ ./updated-repo/
-ls -a
+ls -a updated-repo
 
 
 #clone git repo to another location to be able to push it
