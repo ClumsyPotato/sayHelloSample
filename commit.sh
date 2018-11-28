@@ -6,17 +6,22 @@ set -r
 
 ls
 
+ls ./target/
+
 # move the newlybuild jar into the git repo
-rm -r ./resource-tutorial/target/*
-cp ./target/ ./resource-tutorial/
+git clone resource-tutorial updated-repo
+rm -r ./updated-repo/target/*
+cp ./target/ ./updated-repo/
+
 
 
 #clone git repo to another location to be able to push it
 git config --global user.email "lake_bodom@kabelbw.de"
-git config --gloabl user.name "ClumsyPotato"
+git config --global user.name "ClumsyPotato"
 
-git add ./resource-tutorial/*
+git add ./updated-repo/*
 
+cd updated-repo
 git commit -m "updated"
 
 echo "end commit"
