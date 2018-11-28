@@ -13,7 +13,9 @@ git clone resource-tutorial updated-repo
 
 rm -rf updated-repo/target
 ls
+echo "ls target"
 ls target
+echo "----"
 cp -r target/ ./updated-repo/
 ls updated-repo
 #ls -a updated-repo
