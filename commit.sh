@@ -12,7 +12,10 @@ ls ./target/
 git clone resource-tutorial updated-repo
 
 rm -rf updated-repo/target
+ls
+ls target
 cp -r target/ ./updated-repo/
+ls updated-repo
 #ls -a updated-repo
 
 
