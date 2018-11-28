@@ -9,7 +9,7 @@ ls
 ls ./target/
 
 # move the newlybuild jar into the git repo
-git clone resource-tutorial updated-repo
+cp -r resource-tutorial updated-repo
 ls -a resource-tutorial
 ls -a updated-repo
 rm -r ./updated-repo/target
