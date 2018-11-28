@@ -10,7 +10,7 @@ ls ./target/
 
 # move the newlybuild jar into the git repo
 git clone resource-tutorial updated-repo
-rm -r ./updated-repo/target/*
+rm -r ./updated-repo/target
 cp ./target/ ./updated-repo/
 
 
@@ -19,9 +19,8 @@ cp ./target/ ./updated-repo/
 git config --global user.email "lake_bodom@kabelbw.de"
 git config --global user.name "ClumsyPotato"
 
-git add ./updated-repo/*
-
 cd updated-repo
+git add ./*
 git commit -m "updated"
 
 echo "end commit"
