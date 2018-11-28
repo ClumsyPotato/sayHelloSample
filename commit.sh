@@ -10,10 +10,10 @@ ls ./target/
 
 # move the newlybuild jar into the git repo
 git clone resource-tutorial updated-repo
+ls -a resource-tutorial
+ls -a updated-repo
 rm -r ./updated-repo/target
 cp -r ./target/ ./updated-repo/
-
-
 
 #clone git repo to another location to be able to push it
 git config --global user.email "lake_bodom@kabelbw.de"
