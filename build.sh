@@ -4,22 +4,12 @@ echo "start build!!!!!!"
 
 set -e
 
-git clone resource-tutorial updated-repo
-cd updated-repo
+cd resource-tutorial
 
 ./mvnw -Dmaven.test.skip=true clean install
 
-git config --global user.email "lake_bodom@kabelbw.de"
-git config --global user.name "ClumsyPotato"
-
-ls
-
-git add .
-
-git commit -m "updated"
-
-
-
-
 ls target/
 pwd
+
+
+echo "end build"
