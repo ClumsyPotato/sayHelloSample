@@ -2,7 +2,7 @@
 
 echo "beginn commit"
 
-set -r
+set -e
 
 ls
 
