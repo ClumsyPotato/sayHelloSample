@@ -6,6 +6,8 @@ set -e
 
 cd resource-tutorial
 
+ls
+
 ./mvnw -Dmaven.test.skip=true clean install
 
 cd target
