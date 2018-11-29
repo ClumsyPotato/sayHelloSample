@@ -4,9 +4,10 @@ echo "start build!!!!!"
 
 set -e
 
+ls
+
 cd resource-tutorial
 
-ls
 
 ./mvnw -Dmaven.test.skip=true clean install
 
