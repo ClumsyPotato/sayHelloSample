@@ -11,9 +11,9 @@ cd resource-tutorial
 
 ./mvnw -Dmaven.test.skip=true clean install
 
-cd target
-touch hereisafile
-ls ./
+cd ../
+cp -r ./resource-tutorial/target ./target
+ls ./target
 pwd
 
 
