@@ -6,17 +6,16 @@ set -e
 
 ls
 
+echo "print target"
 ls ./target/
-
+echo "end print"
 # move the newlybuild jar into the git repo
 git clone resource-tutorial updated-repo
 
 
 rm -rf updated-repo/target
-ls
-echo "ls target"
-ls -a target
-echo "----"
+ls  updated-repo/target
+
 cp -r target/ ./updated-repo/
 ls updated-repo
 
