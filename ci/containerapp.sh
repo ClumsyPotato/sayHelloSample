@@ -1,5 +1,5 @@
 
-
+ls
 rm -r resource-tutorial/target/*
 cp -r target resource-tutorial/target/
 
