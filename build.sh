@@ -7,9 +7,10 @@ set -e
 cd resource-tutorial
 
 ./mvnw -Dmaven.test.skip=true clean install
+
 cd target
 touch hereisafile
-ls /
+ls ./
 pwd
 
 

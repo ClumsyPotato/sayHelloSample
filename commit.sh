@@ -14,7 +14,7 @@ git clone resource-tutorial updated-repo
 
 
 rm -rf updated-repo/target
-ls  updated-repo/target
+ls  updated-repo/
 
 cp -r target/ ./updated-repo/
 ls updated-repo
