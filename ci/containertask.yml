@@ -5,6 +5,7 @@ image_resource:
    source: {repository: docker}
 inputs:
 - name: resource-tutorial
+- name: target
 
 run:
    path: /bin/sh
