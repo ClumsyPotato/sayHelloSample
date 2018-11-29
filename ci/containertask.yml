@@ -6,4 +6,4 @@ image_resource:
 
 run:
    path: /bin/sh
-   args: ["./resource-tutorial/ci/containerapp.sh"]
+   args: ["resource-tutorial/ci/containerapp.sh"]
