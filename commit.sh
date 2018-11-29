@@ -11,13 +11,15 @@ ls ./target/
 # move the newlybuild jar into the git repo
 git clone resource-tutorial updated-repo
 
+
 rm -rf updated-repo/target
 ls
 echo "ls target"
-ls target
+ls -a target
 echo "----"
 cp -r target/ ./updated-repo/
 ls updated-repo
+
 #ls -a updated-repo
 
 
