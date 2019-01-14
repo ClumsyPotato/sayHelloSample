@@ -12,6 +12,7 @@ cd resource-tutorial
 ./mvnw -Dmaven.test.skip=true clean install
 
 cd ../
+ls
 cp -r ./resource-tutorial/target/* ./target
 ls ./target
 pwd
