@@ -3,7 +3,6 @@
 echo "start build!!!"
 
 set -e
-mkdir target
 
 ls
 
