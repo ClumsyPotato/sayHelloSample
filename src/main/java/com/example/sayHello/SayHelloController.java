@@ -12,4 +12,9 @@ public class SayHelloController {
     }
 
 
+    @GetMapping("getInfo")
+    public String getInfo(){
+        return "A usefull info";
+    }
+
 }
